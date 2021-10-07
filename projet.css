@@ -1,0 +1,35 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    list-style-type: none;
+}
+#menuhautdepage li{
+    width: 150px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+.categorie{
+    display: flex;
+
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    text-decoration: none;
+    color:black;    
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+}
