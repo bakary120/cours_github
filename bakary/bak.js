@@ -20,10 +20,10 @@ function envoyer() {
   let mail = "mail@gmail.com";
   let messages = bonjour;
 
-  let nom = document.getElementById("idnom").value;
-  let prenom = document.getElementById("").value;
+  let nom = document.getElementById("nom").value;
+  let prenom = document.getElementById("prenom").value;
   let email = document.getElementById("email").value;
-  let message = document.getElementById("").value;
+  let message = document.getElementById("message").value;
 
   if (
     nom == noms &&
